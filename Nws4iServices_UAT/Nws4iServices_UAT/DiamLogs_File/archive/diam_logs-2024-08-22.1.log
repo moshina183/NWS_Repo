@@ -1,0 +1,28 @@
+2024-08-22 14:54:07,098 INFO [RMI TCP Connection(258)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] 
+Application shutdown requested.
+2024-08-22 14:54:07,104 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:77] 
+Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-08-22 14:54:07,104 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:1134] 
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1a2e2935, started on Thu Aug 22 10:44:30 GST 2024
+2024-08-22 14:54:07,108 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase 2147483647
+2024-08-22 14:54:07,109 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'applicationTaskExecutor' completed its stop procedure
+2024-08-22 14:54:07,109 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase 2147482623
+2024-08-22 14:54:07,110 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-08-22 14:54:07,110 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase 2147481599
+2024-08-22 14:54:07,111 INFO [RMI TCP Connection(258)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] 
+Stopping ProtocolHandler ["http-nio-9999"]
+2024-08-22 14:54:07,199 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'webServerStartStop' completed its stop procedure
+2024-08-22 14:54:07,200 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase -2147483647
+2024-08-22 14:54:07,200 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-08-22 14:54:07,201 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:468] 
+Unregistering JMX-exposed beans on shutdown
+2024-08-22 14:54:07,201 DEBUG [RMI TCP Connection(258)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:328] 
+Shutting down ExecutorService 'applicationTaskExecutor'

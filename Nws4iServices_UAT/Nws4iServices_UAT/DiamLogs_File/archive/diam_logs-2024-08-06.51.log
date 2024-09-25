@@ -1,0 +1,118 @@
+2024-08-06 17:55:50,951 DEBUG [http-nio-9999-exec-8] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/diamservices/api/v2/getsocialbenefitdata", parameters={}
+2024-08-06 17:55:50,956 DEBUG [http-nio-9999-exec-8] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-08-06 17:55:50,956 INFO [http-nio-9999-exec-8] c.d.a.i.BaseInterceptor [BaseInterceptor.java:51] 
+Inside prehandle
+2024-08-06 17:55:50,957 INFO [http-nio-9999-exec-8] c.d.a.i.BaseInterceptor [BaseInterceptor.java:556] 
+############Request Processing started for request-id ab and esbURL is /diamservices/api/v2/getsocialbenefitdata
+2024-08-06 17:55:50,958 INFO [http-nio-9999-exec-8] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-08-06 17:55:51,015 DEBUG [http-nio-9999-exec-8] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-08-06 17:55:51,016 INFO [http-nio-9999-exec-8] c.d.a.i.BaseInterceptor [BaseInterceptor.java:593] 
+Inside DDOS filtering
+2024-08-06 17:55:51,016 INFO [http-nio-9999-exec-8] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-08-06 17:55:51,081 INFO [http-nio-9999-exec-8] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-08-06 17:55:51,081 INFO [http-nio-9999-exec-8] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-08-06 17:55:51,081 INFO [http-nio-9999-exec-8] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-08-06 17:55:51,081 INFO [http-nio-9999-exec-8] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-08-06 17:55:51,081 INFO [http-nio-9999-exec-8] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 17:55:51,138 INFO [http-nio-9999-exec-8] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-08-06 17:55:51,138 INFO [http-nio-9999-exec-8] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 17:55:51,194 INFO [http-nio-9999-exec-8] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelisted
+2024-08-06 17:55:51,194 INFO [http-nio-9999-exec-8] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-08-06 17:55:51,250 DEBUG [http-nio-9999-exec-8] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for getsocialbenefitdata
+2024-08-06 17:55:51,424 INFO [http-nio-9999-exec-8] c.d.a.c.DiamControllerVer2 [DiamControllerVer2.java:518] 
+Entered::AbstractEmailDelivery::getRestTemplate()
+2024-08-06 17:55:51,558 DEBUG [http-nio-9999-exec-8] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP POST https://proxy-tst.mtcit.gov.om/ws/MOSD/MOSD_WS/services/CallWS
+2024-08-06 17:55:51,559 DEBUG [http-nio-9999-exec-8] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-08-06 17:55:51,561 DEBUG [http-nio-9999-exec-8] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Writing [<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.mosd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getSocialBenefitData>
+         <!--Optional:-->
+         <ws:username>DIAM</ws:username>
+         <!--Optional:-->
+         <ws:password>DIAM82019</ws:password>
+         <!--Optional:-->
+         <ws:civilid>9460828</ws:civilid>
+      </ws:getSocialBenefitData>
+   </soapenv:Body>
+</soapenv:Envelope>] as "text/xml;charset=UTF-8"
+2024-08-06 17:55:52,002 DEBUG [http-nio-9999-exec-8] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Response 200 OK
+2024-08-06 17:55:52,005 DEBUG [http-nio-9999-exec-8] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Reading to [java.lang.String] as "text/xml;charset=UTF-8"
+2024-08-06 17:55:52,007 DEBUG [http-nio-9999-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:275] 
+Using 'application/xml', given [*/*] and supported [application/xml]
+2024-08-06 17:55:52,007 DEBUG [http-nio-9999-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] 
+Writing ["<response><responseHeader><esbStatus> SUCCESS</esbStatus><targetStatus> SUCCESS </targetStatus><esbR (truncated)..."]
+2024-08-06 17:55:52,013 DEBUG [http-nio-9999-exec-8] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-08-06 17:57:06,382 INFO [RMI TCP Connection(12)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] 
+Application shutdown requested.
+2024-08-06 17:57:06,383 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:77] 
+Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-08-06 17:57:06,383 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:1134] 
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55e7a35c, started on Tue Aug 06 17:51:02 GST 2024
+2024-08-06 17:57:06,384 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase 2147483647
+2024-08-06 17:57:06,385 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'applicationTaskExecutor' completed its stop procedure
+2024-08-06 17:57:06,385 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase 2147482623
+2024-08-06 17:57:06,386 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-08-06 17:57:06,386 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase 2147481599
+2024-08-06 17:57:06,387 INFO [RMI TCP Connection(12)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] 
+Stopping ProtocolHandler ["http-nio-9999"]
+2024-08-06 17:57:06,453 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'webServerStartStop' completed its stop procedure
+2024-08-06 17:57:06,453 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase -2147483647
+2024-08-06 17:57:06,454 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-08-06 17:57:06,455 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:468] 
+Unregistering JMX-exposed beans on shutdown
+2024-08-06 17:57:06,456 DEBUG [RMI TCP Connection(12)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:328] 
+Shutting down ExecutorService 'applicationTaskExecutor'
+2024-08-06 17:57:34,371 DEBUG [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:263] 
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [SampleWarApplicationTests]: using SpringBootContextLoader
+2024-08-06 17:57:34,376 DEBUG [main] o.s.t.c.s.AbstractContextLoader [AbstractContextLoader.java:271] 
+Could not detect default resource locations for test class [com.diam.app.SampleWarApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-08-06 17:57:34,377 INFO [main] o.s.t.c.s.AnnotationConfigContextLoaderUtils [AnnotationConfigContextLoaderUtils.java:83] 
+Could not detect default configuration classes for test class [com.diam.app.SampleWarApplicationTests]: SampleWarApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-06 17:57:34,391 DEBUG [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:432] 
+Using ContextCustomizerFactory implementations for test class [SampleWarApplicationTests]: [ImportsContextCustomizerFactory, ExcludeFilterContextCustomizerFactory, HttpGraphQlTesterContextCustomizerFactory, DuplicateJsonObjectContextCustomizerFactory, MockitoContextCustomizerFactory, TestRestTemplateContextCustomizerFactory, WebTestClientContextCustomizerFactory, DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory, OverrideAutoConfigurationContextCustomizerFactory, ObservabilityContextCustomizerFactory, TypeExcludeFiltersContextCustomizerFactory, PropertyMappingContextCustomizerFactory, WebDriverContextCustomizerFactory, MockServerContainerContextCustomizerFactory, DynamicPropertiesContextCustomizerFactory]
+2024-08-06 17:57:34,416 DEBUG [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:370] 
+Using ContextCustomizers for test class [SampleWarApplicationTests]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, WebDriverContextCustomizer]
+2024-08-06 17:57:34,602 DEBUG [main] o.s.c.a.ClassPathScanningCandidateComponentProvider [ClassPathScanningCandidateComponentProvider.java:476] 
+Identified candidate component class: file [C:\Users\prasanth.s\Desktop\sample-twoServices\target\classes\com\diam\app\SampleWarApplication.class]
+2024-08-06 17:57:34,606 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [SpringBootTestContextBootstrapper.java:234] 
+Found @SpringBootConfiguration com.diam.app.SampleWarApplication for test class com.diam.app.SampleWarApplicationTests
+2024-08-06 17:57:34,835 DEBUG [main] o.s.t.c.u.TestContextSpringFactoriesUtils [TestContextFailureHandler.java:43] 
+Skipping candidate TestExecutionListener [org.springframework.test.context.observation.MicrometerObservationRegistryTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: io.micrometer.context.ThreadLocalAccessor. MicrometerObservationRegistryTestExecutionListener requires io.micrometer:micrometer-observation:1.10.8 or higher and io.micrometer:context-propagation:1.0.3 or higher.
+2024-08-06 17:57:34,839 DEBUG [main] o.s.t.c.u.TestContextSpringFactoriesUtils [TestContextFailureHandler.java:43] 
+Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: org/springframework/transaction/interceptor/TransactionAttributeSource
+2024-08-06 17:57:34,841 DEBUG [main] o.s.t.c.u.TestContextSpringFactoriesUtils [TestContextFailureHandler.java:43] 
+Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: org/springframework/transaction/interceptor/TransactionAttribute
+2024-08-06 17:57:34,844 DEBUG [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:182] 
+Using TestExecutionListeners for test class [SampleWarApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+2024-08-06 17:57:34,846 DEBUG [main] o.s.t.c.s.DirtiesContextBeforeModesTestExecutionListener [AbstractDirtiesContextTestExecutionListener.java:154] 
+Before test class: class [SampleWarApplicationTests], class annotated with @DirtiesContext [false] with mode [null]

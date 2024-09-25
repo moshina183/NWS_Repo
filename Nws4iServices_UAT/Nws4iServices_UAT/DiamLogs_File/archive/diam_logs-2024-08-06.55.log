@@ -1,0 +1,132 @@
+2024-08-06 18:12:12,939 INFO [http-nio-9999-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] 
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 18:12:12,942 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] 
+Initializing Servlet 'dispatcherServlet'
+2024-08-06 18:12:12,942 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:533] 
+Detected StandardServletMultipartResolver
+2024-08-06 18:12:12,942 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:557] 
+Detected AcceptHeaderLocaleResolver
+2024-08-06 18:12:12,946 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:583] 
+Detected FixedThemeResolver
+2024-08-06 18:12:12,947 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:733] 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6cef038e
+2024-08-06 18:12:12,948 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:797] 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@48225dab
+2024-08-06 18:12:12,948 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:549] 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-08-06 18:12:12,948 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] 
+Completed initialization in 6 ms
+2024-08-06 18:12:12,961 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v2/getsocialbenefitdata", parameters={}
+2024-08-06 18:12:12,976 DEBUG [http-nio-9999-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-08-06 18:12:12,976 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:51] 
+Inside prehandle
+2024-08-06 18:12:12,981 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:556] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getsocialbenefitdata
+2024-08-06 18:12:12,984 INFO [http-nio-9999-exec-1] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-08-06 18:12:13,505 DEBUG [http-nio-9999-exec-1] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-08-06 18:12:13,507 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:593] 
+Inside DDOS filtering
+2024-08-06 18:12:13,507 INFO [http-nio-9999-exec-1] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-08-06 18:12:13,569 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-08-06 18:12:13,570 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-08-06 18:12:13,570 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-08-06 18:12:13,571 ERROR [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:660] 
+Invalid timestamp
+2024-08-06 18:12:13,572 INFO [http-nio-9999-exec-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-08-06 18:12:13,628 INFO [pool-2-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-08-06 18:12:13,634 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-08-06 18:12:27,960 DEBUG [http-nio-9999-exec-3] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+GET "/api/v2/GetGISDetails/1/641033.584/2609733.272", parameters={}
+2024-08-06 18:12:27,961 DEBUG [http-nio-9999-exec-3] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getRecordsGISService(Optional, Optional, Optional, HttpServletRequest, HttpServletResponse, Map)
+2024-08-06 18:12:27,961 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:51] 
+Inside prehandle
+2024-08-06 18:12:27,961 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:231] 
+############Request Processing started for request-id ab and esbURL is /api/v2/GetGISDetails/1/641033.584/2609733.272
+2024-08-06 18:12:27,962 INFO [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code GetGISDetails
+2024-08-06 18:12:28,021 DEBUG [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-08-06 18:12:28,022 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:268] 
+Inside DDOS filtering
+2024-08-06 18:12:28,023 INFO [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-08-06 18:12:28,075 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-08-06 18:12:28,075 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-08-06 18:12:28,075 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-08-06 18:12:28,076 ERROR [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:332] 
+Invalid timestamp
+2024-08-06 18:12:28,076 INFO [http-nio-9999-exec-3] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-08-06 18:12:28,134 INFO [pool-3-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-08-06 18:12:28,136 DEBUG [http-nio-9999-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-08-06 18:12:39,540 DEBUG [http-nio-9999-exec-4] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+GET "/api/v2/GetGISDetails/1/641033.584/2609733.272", parameters={}
+2024-08-06 18:12:39,541 DEBUG [http-nio-9999-exec-4] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getRecordsGISService(Optional, Optional, Optional, HttpServletRequest, HttpServletResponse, Map)
+2024-08-06 18:12:39,541 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:51] 
+Inside prehandle
+2024-08-06 18:12:39,541 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:231] 
+############Request Processing started for request-id ab and esbURL is /api/v2/GetGISDetails/1/641033.584/2609733.272
+2024-08-06 18:12:39,542 INFO [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code GetGISDetails
+2024-08-06 18:12:39,598 DEBUG [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-08-06 18:12:39,599 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:268] 
+Inside DDOS filtering
+2024-08-06 18:12:39,599 INFO [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-08-06 18:12:39,670 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-08-06 18:12:39,672 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-08-06 18:12:39,673 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-08-06 18:12:39,674 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-08-06 18:12:39,674 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 18:12:39,747 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-08-06 18:12:39,748 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 18:12:39,810 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelisted
+2024-08-06 18:12:39,810 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-08-06 18:12:39,866 DEBUG [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for GetGISDetails
+2024-08-06 18:12:39,900 INFO [http-nio-9999-exec-4] c.d.a.s.GetRecordGISCSHandlerVer2 [GetRecordGISCSHandlerVer2.java:47] 
+Entered::AbstractEmailDelivery::getRestTemplate()
+2024-08-06 18:12:39,946 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP GET http://10.180.2.21/GISICTEServices/api/values/Getrecord/1/641033.584/2609733.272/
+2024-08-06 18:12:39,962 DEBUG [http-nio-9999-exec-4] i.m.c.u.i.l.InternalLoggerFactory [InternalLoggerFactory.java:59] 
+Using SLF4J as the default logging framework
+2024-08-06 18:12:39,968 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-08-06 18:12:54,415 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Response 200 OK
+2024-08-06 18:12:54,419 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Reading to [java.lang.String] as "application/json;charset=utf-8"
+2024-08-06 18:12:54,438 DEBUG [http-nio-9999-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:275] 
+Using 'application/json', given [*/*] and supported [application/json]
+2024-08-06 18:12:54,439 DEBUG [http-nio-9999-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] 
+Writing ["{"responseHeader":{"esbStatus":"SUCCESS", "targetStatus":" SUCCESS","esbResponseCode":"200" },"respo (truncated)..."]
+2024-08-06 18:12:54,468 DEBUG [http-nio-9999-exec-4] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK

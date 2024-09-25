@@ -1,0 +1,140 @@
+2024-09-23 09:26:37,987 INFO [http-nio-9999-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] 
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-23 09:26:37,990 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] 
+Initializing Servlet 'dispatcherServlet'
+2024-09-23 09:26:37,991 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:521] 
+Detected StandardServletMultipartResolver
+2024-09-23 09:26:37,991 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:545] 
+Detected AcceptHeaderLocaleResolver
+2024-09-23 09:26:37,994 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:570] 
+Detected FixedThemeResolver
+2024-09-23 09:26:37,994 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:720] 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3d134e48
+2024-09-23 09:26:37,995 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:784] 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@5e02a865
+2024-09-23 09:26:37,995 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:542] 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-23 09:26:37,995 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] 
+Completed initialization in 4 ms
+2024-09-23 09:26:38,014 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+POST "/api/v2/getsocialbenefitdata", parameters={}
+2024-09-23 09:26:38,026 DEBUG [http-nio-9999-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-23 09:26:38,026 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-23 09:26:38,034 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id abc and esbURL is /api/v2/getsocialbenefitdata
+2024-09-23 09:26:38,037 INFO [http-nio-9999-exec-1] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-09-23 09:26:38,647 DEBUG [http-nio-9999-exec-1] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-23 09:26:38,650 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-23 09:26:38,650 INFO [http-nio-9999-exec-1] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-23 09:26:38,745 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-23 09:26:38,745 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-09-23 09:26:38,747 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-09-23 09:26:38,747 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-09-23 09:26:38,747 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-23 09:26:38,850 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-09-23 09:26:38,851 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-23 09:26:38,929 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelist Process Starts here....
+2024-09-23 09:26:38,930 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-09-23 09:26:39,089 ERROR [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:192] 
+Access Denied.
+2024-09-23 09:26:39,091 INFO [http-nio-9999-exec-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-09-23 09:26:39,206 INFO [pool-2-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-09-23 09:26:39,215 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK
+2024-09-23 09:28:03,884 DEBUG [http-nio-9999-exec-5] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+POST "/api/v2/getsocialbenefitdata", parameters={}
+2024-09-23 09:28:03,885 DEBUG [http-nio-9999-exec-5] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-23 09:28:03,885 INFO [http-nio-9999-exec-5] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-23 09:28:03,886 INFO [http-nio-9999-exec-5] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id abc and esbURL is /api/v2/getsocialbenefitdata
+2024-09-23 09:28:03,886 INFO [http-nio-9999-exec-5] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-09-23 09:28:03,962 DEBUG [http-nio-9999-exec-5] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-23 09:28:03,964 INFO [http-nio-9999-exec-5] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-23 09:28:03,964 INFO [http-nio-9999-exec-5] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-23 09:28:04,040 INFO [http-nio-9999-exec-5] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-23 09:28:04,041 INFO [http-nio-9999-exec-5] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-09-23 09:28:04,041 INFO [http-nio-9999-exec-5] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-09-23 09:28:04,041 INFO [http-nio-9999-exec-5] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-09-23 09:28:04,041 INFO [http-nio-9999-exec-5] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-23 09:28:04,113 INFO [http-nio-9999-exec-5] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-09-23 09:28:04,113 INFO [http-nio-9999-exec-5] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-23 09:28:04,179 INFO [http-nio-9999-exec-5] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelist Process Starts here....
+2024-09-23 09:28:04,179 INFO [http-nio-9999-exec-5] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-09-23 09:28:04,253 ERROR [http-nio-9999-exec-5] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:192] 
+Access Denied.
+2024-09-23 09:28:04,253 INFO [http-nio-9999-exec-5] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-09-23 09:28:04,331 INFO [pool-3-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-09-23 09:28:04,333 DEBUG [http-nio-9999-exec-5] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK
+2024-09-23 09:28:12,843 DEBUG [http-nio-9999-exec-6] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+POST "/api/v2/getsocialbenefitdata", parameters={}
+2024-09-23 09:28:12,844 DEBUG [http-nio-9999-exec-6] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-23 09:28:12,844 INFO [http-nio-9999-exec-6] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-23 09:28:12,844 INFO [http-nio-9999-exec-6] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id abc and esbURL is /api/v2/getsocialbenefitdata
+2024-09-23 09:28:12,845 INFO [http-nio-9999-exec-6] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-09-23 09:28:12,926 DEBUG [http-nio-9999-exec-6] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-23 09:28:12,928 INFO [http-nio-9999-exec-6] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-23 09:28:12,929 INFO [http-nio-9999-exec-6] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-23 09:28:13,004 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-23 09:28:13,005 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-09-23 09:28:13,005 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-09-23 09:28:13,005 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-09-23 09:28:13,005 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-23 09:28:13,074 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-09-23 09:28:13,074 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-23 09:28:13,144 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelist Process Starts here....
+2024-09-23 09:28:13,144 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-09-23 09:28:13,204 ERROR [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:192] 
+Access Denied.
+2024-09-23 09:28:13,205 INFO [http-nio-9999-exec-6] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.

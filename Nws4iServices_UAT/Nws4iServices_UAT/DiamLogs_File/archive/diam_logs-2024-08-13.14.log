@@ -1,0 +1,96 @@
+2024-08-13 21:11:02,938 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+GET "/", parameters={}
+2024-08-13 21:11:02,941 DEBUG [http-nio-9999-exec-9] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-08-13 21:11:02,942 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-08-13 21:11:02,942 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:233] 
+############Request Processing started for request-id null and esbURL is /
+2024-08-13 21:11:02,943 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:249] 
+Invalid URL sent by requestId null
+2024-08-13 21:11:02,943 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 404 NOT_FOUND
+2024-08-13 21:11:02,943 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+"ERROR" dispatch for GET "/error", parameters={}
+2024-08-13 21:11:02,944 DEBUG [http-nio-9999-exec-9] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-08-13 21:11:02,944 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-08-13 21:11:02,944 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:233] 
+############Request Processing started for request-id null and esbURL is /error
+2024-08-13 21:11:02,945 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:249] 
+Invalid URL sent by requestId null
+2024-08-13 21:11:02,945 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1135] 
+Exiting from "ERROR" dispatch, status 404
+2024-08-13 21:11:02,945 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+GET "/", parameters={}
+2024-08-13 21:11:02,946 DEBUG [http-nio-9999-exec-9] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-08-13 21:11:02,946 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-08-13 21:11:02,946 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:233] 
+############Request Processing started for request-id null and esbURL is /
+2024-08-13 21:11:02,947 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:249] 
+Invalid URL sent by requestId null
+2024-08-13 21:11:02,947 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 404 NOT_FOUND
+2024-08-13 21:11:02,947 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+"ERROR" dispatch for GET "/error", parameters={}
+2024-08-13 21:11:02,947 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+GET "/rails_info/properties", parameters={}
+2024-08-13 21:11:03,184 DEBUG [http-nio-9999-exec-9] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-08-13 21:11:03,184 DEBUG [http-nio-9999-exec-1] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-08-13 21:11:03,184 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-08-13 21:11:03,184 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-08-13 21:11:03,184 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:233] 
+############Request Processing started for request-id null and esbURL is /error
+2024-08-13 21:11:03,185 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:233] 
+############Request Processing started for request-id null and esbURL is /rails_info/properties
+2024-08-13 21:11:03,185 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:249] 
+Invalid URL sent by requestId null
+2024-08-13 21:11:03,185 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:249] 
+Invalid URL sent by requestId null
+2024-08-13 21:11:03,185 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1135] 
+Exiting from "ERROR" dispatch, status 404
+2024-08-13 21:11:03,185 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 404 NOT_FOUND
+2024-08-13 21:11:03,186 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+"ERROR" dispatch for GET "/error", parameters={}
+2024-08-13 21:11:03,186 DEBUG [http-nio-9999-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-08-13 21:11:03,186 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-08-13 21:11:03,186 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:233] 
+############Request Processing started for request-id null and esbURL is /error
+2024-08-13 21:11:03,187 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:249] 
+Invalid URL sent by requestId null
+2024-08-13 21:11:03,187 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1135] 
+Exiting from "ERROR" dispatch, status 404
+2024-08-13 21:11:03,187 DEBUG [http-nio-9999-exec-10] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+GET "/index.html", parameters={}
+2024-08-13 21:11:03,188 DEBUG [http-nio-9999-exec-10] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-08-13 21:11:03,188 INFO [http-nio-9999-exec-10] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-08-13 21:11:03,188 INFO [http-nio-9999-exec-10] c.d.a.i.BaseInterceptor [BaseInterceptor.java:233] 
+############Request Processing started for request-id null and esbURL is /index.html
+2024-08-13 21:11:03,188 INFO [http-nio-9999-exec-10] c.d.a.i.BaseInterceptor [BaseInterceptor.java:249] 
+Invalid URL sent by requestId null
+2024-08-13 21:11:03,188 DEBUG [http-nio-9999-exec-10] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 404 NOT_FOUND
+2024-08-13 21:11:03,189 DEBUG [http-nio-9999-exec-10] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+"ERROR" dispatch for GET "/error", parameters={}
+2024-08-13 21:11:03,189 DEBUG [http-nio-9999-exec-10] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-08-13 21:11:03,189 INFO [http-nio-9999-exec-10] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-08-13 21:11:03,189 INFO [http-nio-9999-exec-10] c.d.a.i.BaseInterceptor [BaseInterceptor.java:233] 
+############Request Processing started for request-id null and esbURL is /error
+2024-08-13 21:11:03,189 INFO [http-nio-9999-exec-10] c.d.a.i.BaseInterceptor [BaseInterceptor.java:249] 
+Invalid URL sent by requestId null
+2024-08-13 21:11:03,189 DEBUG [http-nio-9999-exec-10] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1135] 
+Exiting from "ERROR" dispatch, status 404

@@ -1,0 +1,193 @@
+2024-09-11 15:58:32,308 DEBUG [http-nio-9999-exec-10] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v2/getsocialbenefitdata", parameters={}
+2024-09-11 15:58:32,376 DEBUG [http-nio-9999-exec-10] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-11 15:58:32,376 INFO [http-nio-9999-exec-10] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-11 15:58:32,377 INFO [http-nio-9999-exec-10] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id abooooooooojjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjbbbbbbbbbbbbbbbggggggggggggggg and esbURL is /api/v2/getsocialbenefitdata
+2024-09-11 15:58:32,378 INFO [http-nio-9999-exec-10] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-09-11 15:58:32,439 DEBUG [http-nio-9999-exec-10] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-11 15:58:32,440 INFO [http-nio-9999-exec-10] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-11 15:58:32,440 INFO [http-nio-9999-exec-10] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-11 15:58:32,506 INFO [http-nio-9999-exec-10] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-11 15:58:32,507 ERROR [http-nio-9999-exec-10] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:51] 
+Invalid api key
+2024-09-11 15:58:32,507 ERROR [http-nio-9999-exec-10] c.d.a.i.BaseInterceptor [BaseInterceptor.java:636] 
+Invalid or empty request params
+2024-09-11 15:58:32,507 INFO [http-nio-9999-exec-10] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-09-11 15:58:32,753 ERROR [pool-11-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:84] 
+Exception while Auditing records ORA-12899: value too large for column "MWUATADMIN"."TBL_ESB_TXN_AUDIT_LOGS"."REQUEST_ID" (actual: 80, maximum: 50)
+
+2024-09-11 15:58:32,755 DEBUG [http-nio-9999-exec-10] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-09-11 15:58:38,806 DEBUG [http-nio-9999-exec-3] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v2/getsocialbenefitdata", parameters={}
+2024-09-11 15:58:38,807 DEBUG [http-nio-9999-exec-3] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-11 15:58:38,808 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-11 15:58:38,808 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id abooooooooojjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjbbbbbbbbbbbbbbbggggggggggggggg and esbURL is /api/v2/getsocialbenefitdata
+2024-09-11 15:58:38,812 INFO [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-09-11 15:58:38,883 DEBUG [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-11 15:58:38,884 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-11 15:58:38,884 INFO [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-11 15:58:39,039 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-11 15:58:39,039 ERROR [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:66] 
+Invalid lenght od request id
+2024-09-11 15:58:39,040 ERROR [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:636] 
+Invalid or empty request params
+2024-09-11 15:58:39,040 INFO [http-nio-9999-exec-3] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-09-11 15:58:39,196 ERROR [pool-12-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:84] 
+Exception while Auditing records ORA-12899: value too large for column "MWUATADMIN"."TBL_ESB_TXN_AUDIT_LOGS"."REQUEST_ID" (actual: 80, maximum: 50)
+
+2024-09-11 15:58:39,198 DEBUG [http-nio-9999-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-09-11 16:01:12,657 DEBUG [http-nio-9999-exec-4] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v2/getsocialbenefitdata", parameters={}
+2024-09-11 16:01:12,659 DEBUG [http-nio-9999-exec-4] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-11 16:01:12,659 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-11 16:01:12,660 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id abooooooooojjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjbbbbbbbbbbbbbbbggggggggggggggg and esbURL is /api/v2/getsocialbenefitdata
+2024-09-11 16:01:12,660 INFO [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-09-11 16:01:12,754 DEBUG [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-11 16:01:12,757 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-11 16:01:12,758 INFO [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-11 16:01:12,919 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-11 16:01:12,920 ERROR [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:66] 
+Invalid lenght od request id
+2024-09-11 16:01:12,920 ERROR [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:636] 
+Invalid or empty request params
+2024-09-11 16:01:12,920 INFO [http-nio-9999-exec-4] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-09-11 16:01:13,006 ERROR [pool-13-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:84] 
+Exception while Auditing records ORA-12899: value too large for column "MWUATADMIN"."TBL_ESB_TXN_AUDIT_LOGS"."REQUEST_ID" (actual: 80, maximum: 50)
+
+2024-09-11 16:01:13,008 DEBUG [http-nio-9999-exec-4] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-09-11 16:02:48,130 DEBUG [http-nio-9999-exec-6] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v2/getsocialbenefitdata", parameters={}
+2024-09-11 16:02:48,131 DEBUG [http-nio-9999-exec-6] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-11 16:02:48,132 INFO [http-nio-9999-exec-6] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-11 16:02:48,132 INFO [http-nio-9999-exec-6] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id abc and esbURL is /api/v2/getsocialbenefitdata
+2024-09-11 16:02:48,344 INFO [http-nio-9999-exec-6] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-09-11 16:02:48,420 DEBUG [http-nio-9999-exec-6] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-11 16:02:48,421 INFO [http-nio-9999-exec-6] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-11 16:02:48,422 INFO [http-nio-9999-exec-6] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-11 16:02:48,504 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-11 16:02:48,504 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-09-11 16:02:48,505 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-09-11 16:02:48,505 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-09-11 16:02:48,505 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-11 16:02:48,593 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-09-11 16:02:48,594 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-11 16:02:48,672 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelisted
+2024-09-11 16:02:48,672 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-09-11 16:02:48,755 DEBUG [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for getsocialbenefitdata
+2024-09-11 16:02:49,058 INFO [http-nio-9999-exec-6] c.d.a.c.DiamControllerVer2 [DiamControllerVer2.java:551] 
+Entered::AbstractEmailDelivery::getRestTemplate()
+2024-09-11 16:02:49,480 DEBUG [http-nio-9999-exec-6] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP POST https://proxy-tst.mtcit.gov.om/ws/MOSD/MOSD_WS/services/CallWS
+2024-09-11 16:02:49,500 DEBUG [http-nio-9999-exec-6] i.m.c.u.i.l.InternalLoggerFactory [InternalLoggerFactory.java:59] 
+Using SLF4J as the default logging framework
+2024-09-11 16:02:49,509 DEBUG [http-nio-9999-exec-6] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-09-11 16:02:49,511 DEBUG [http-nio-9999-exec-6] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Writing [<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.mosd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getSocialBenefitData>
+         <!--Optional:-->
+         <ws:username>DIA</ws:username>
+         <!--Optional:-->
+         <ws:password>DIAM8201</ws:password>
+         <!--Optional:-->
+         <ws:civilid></ws:civilid>
+      </ws:getSocialBenefitData>
+   </soapenv:Body>
+</soapenv:Envelope>] as "text/xml;charset=UTF-8"
+2024-09-11 16:02:54,994 DEBUG [http-nio-9999-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:275] 
+Using 'application/xml', given [*/*] and supported [application/xml]
+2024-09-11 16:02:54,996 DEBUG [http-nio-9999-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] 
+Writing ["<?xml version="1.0" encoding="UTF-8" ?><response><responseHeader><esbStatus>FAILURE</esbStatus></res (truncated)..."]
+2024-09-11 16:02:55,026 INFO [http-nio-9999-exec-6] c.d.a.p.AuditLogProcessor [AuditLogProcessor.java:31] 
+Auditing records in AuditData Processor.
+2024-09-11 16:02:55,140 INFO [pool-14-thread-1] c.d.a.p.AuditLogProcessor [AuditLogProcessor.java:83] 
+Auditing in database.
+2024-09-11 16:02:55,142 DEBUG [http-nio-9999-exec-6] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-09-11 16:03:15,190 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v2/getsocialbenefitdata", parameters={}
+2024-09-11 16:03:15,192 DEBUG [http-nio-9999-exec-9] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-11 16:03:15,192 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-11 16:03:15,193 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id abc and esbURL is /api/v2/getsocialbenefitdata
+2024-09-11 16:03:15,193 INFO [http-nio-9999-exec-9] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-09-11 16:03:15,260 DEBUG [http-nio-9999-exec-9] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-11 16:03:15,262 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-11 16:03:15,262 INFO [http-nio-9999-exec-9] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-11 16:03:15,328 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-11 16:03:15,328 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-09-11 16:03:15,329 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-09-11 16:03:15,329 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 7d562e054a318475c4025b913338
+2024-09-11 16:03:15,329 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-11 16:03:15,391 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-09-11 16:03:15,392 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:129] 
+Auth key Validated false
+2024-09-11 16:03:15,392 ERROR [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:672] 
+Invalid auth key or consumer code sent by request id abc
+2024-09-11 16:03:15,392 INFO [http-nio-9999-exec-9] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-09-11 16:03:15,469 INFO [pool-15-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-09-11 16:03:15,472 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK

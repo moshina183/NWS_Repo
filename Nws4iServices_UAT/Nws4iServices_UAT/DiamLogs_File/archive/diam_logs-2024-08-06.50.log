@@ -1,0 +1,124 @@
+2024-08-06 17:52:41,104 INFO [http-nio-9999-exec-2] o.a.c.c.C.[.[.[/diamservices] [DirectJDKLog.java:173] 
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 17:52:41,108 INFO [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] 
+Initializing Servlet 'dispatcherServlet'
+2024-08-06 17:52:41,109 DEBUG [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:533] 
+Detected StandardServletMultipartResolver
+2024-08-06 17:52:41,109 DEBUG [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:557] 
+Detected AcceptHeaderLocaleResolver
+2024-08-06 17:52:41,119 DEBUG [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:583] 
+Detected FixedThemeResolver
+2024-08-06 17:52:41,122 DEBUG [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:733] 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5e17ea70
+2024-08-06 17:52:41,123 DEBUG [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:797] 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@329aafd5
+2024-08-06 17:52:41,123 DEBUG [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:549] 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-08-06 17:52:41,123 INFO [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] 
+Completed initialization in 15 ms
+2024-08-06 17:52:41,135 DEBUG [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+GET "/diamservices/api/v2/GetGISDetails/1/641033.584/2609733.272", parameters={}
+2024-08-06 17:52:41,158 DEBUG [http-nio-9999-exec-2] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getRecordsGISService(Optional, Optional, Optional, HttpServletRequest, HttpServletResponse, Map)
+2024-08-06 17:52:41,159 INFO [http-nio-9999-exec-2] c.d.a.i.BaseInterceptor [BaseInterceptor.java:51] 
+Inside prehandle
+2024-08-06 17:52:41,167 INFO [http-nio-9999-exec-2] c.d.a.i.BaseInterceptor [BaseInterceptor.java:231] 
+############Request Processing started for request-id ab and esbURL is /diamservices/api/v2/GetGISDetails/1/641033.584/2609733.272
+2024-08-06 17:52:41,169 INFO [http-nio-9999-exec-2] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code GetGISDetails
+2024-08-06 17:52:41,669 DEBUG [http-nio-9999-exec-2] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-08-06 17:52:41,670 INFO [http-nio-9999-exec-2] c.d.a.i.BaseInterceptor [BaseInterceptor.java:268] 
+Inside DDOS filtering
+2024-08-06 17:52:41,670 INFO [http-nio-9999-exec-2] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-08-06 17:52:41,728 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-08-06 17:52:41,729 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-08-06 17:52:41,730 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-08-06 17:52:41,730 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-08-06 17:52:41,730 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 17:52:41,783 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-08-06 17:52:41,784 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 17:52:41,847 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelisted
+2024-08-06 17:52:41,847 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-08-06 17:52:41,903 DEBUG [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for GetGISDetails
+2024-08-06 17:52:41,937 INFO [http-nio-9999-exec-2] c.d.a.s.GetRecordGISCSHandlerVer2 [GetRecordGISCSHandlerVer2.java:47] 
+Entered::AbstractEmailDelivery::getRestTemplate()
+2024-08-06 17:52:41,976 DEBUG [http-nio-9999-exec-2] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP GET http://10.180.2.21/GISICTEServices/api/values/Getrecord/1/641033.584/2609733.272/
+2024-08-06 17:52:41,985 DEBUG [http-nio-9999-exec-2] i.m.c.u.i.l.InternalLoggerFactory [InternalLoggerFactory.java:59] 
+Using SLF4J as the default logging framework
+2024-08-06 17:52:41,989 DEBUG [http-nio-9999-exec-2] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-08-06 17:52:55,689 DEBUG [http-nio-9999-exec-2] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Response 200 OK
+2024-08-06 17:52:55,693 DEBUG [http-nio-9999-exec-2] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Reading to [java.lang.String] as "application/json;charset=utf-8"
+2024-08-06 17:52:55,713 DEBUG [http-nio-9999-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:275] 
+Using 'application/json', given [*/*] and supported [application/json]
+2024-08-06 17:52:55,714 DEBUG [http-nio-9999-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] 
+Writing ["{"responseHeader":{"esbStatus":"SUCCESS", "targetStatus":" SUCCESS","esbResponseCode":"200" },"respo (truncated)..."]
+2024-08-06 17:52:55,745 DEBUG [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-08-06 17:54:11,267 DEBUG [http-nio-9999-exec-4] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+GET "/diamservices/api/v2/GetBillsSummary?ccbAccount=7566073616&Months=%201", parameters={masked}
+2024-08-06 17:54:11,268 DEBUG [http-nio-9999-exec-4] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getBillSummary(String, String, HttpServletRequest, HttpServletResponse, Map)
+2024-08-06 17:54:11,269 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:51] 
+Inside prehandle
+2024-08-06 17:54:11,269 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:231] 
+############Request Processing started for request-id ab and esbURL is /diamservices/api/v2/GetBillsSummary
+2024-08-06 17:54:11,269 INFO [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code GetBillsSummary
+2024-08-06 17:54:11,323 DEBUG [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-08-06 17:54:11,324 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:268] 
+Inside DDOS filtering
+2024-08-06 17:54:11,325 INFO [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-08-06 17:54:11,384 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-08-06 17:54:11,384 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-08-06 17:54:11,385 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-08-06 17:54:11,385 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-08-06 17:54:11,385 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 17:54:11,435 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-08-06 17:54:11,436 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 17:54:11,488 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelisted
+2024-08-06 17:54:11,488 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-08-06 17:54:11,535 DEBUG [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for GetBillsSummary
+2024-08-06 17:54:11,540 INFO [http-nio-9999-exec-4] c.d.a.s.DiamServiceVer2 [DiamServiceVer2.java:435] 
+Entered::AbstractEmailDelivery::getRestTemplate()
+2024-08-06 17:54:11,542 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP GET http://10.180.10.20/api/v1/GetBillsSummary?ccbAccount=7566073616&Months=%201
+2024-08-06 17:54:11,544 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-08-06 17:54:11,871 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Response 200 OK
+2024-08-06 17:54:11,872 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Reading to [java.lang.String] as "application/json;charset=utf-8"
+2024-08-06 17:54:11,873 DEBUG [http-nio-9999-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:275] 
+Using 'application/json', given [*/*] and supported [application/json]
+2024-08-06 17:54:11,873 DEBUG [http-nio-9999-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] 
+Writing ["{"responseHeader":{"esbStatus":"SUCCESS", "targetStatus":" SUCCESS","esbResponseCode":"200" },"respo (truncated)..."]
+2024-08-06 17:54:11,877 DEBUG [http-nio-9999-exec-4] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK

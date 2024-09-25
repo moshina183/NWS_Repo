@@ -1,0 +1,136 @@
+2024-09-23 09:28:13,288 INFO [pool-4-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-09-23 09:28:13,333 DEBUG [http-nio-9999-exec-6] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK
+2024-09-23 09:30:15,676 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+POST "/api/v2/getsocialbenefitdata", parameters={}
+2024-09-23 09:30:15,676 DEBUG [http-nio-9999-exec-9] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-23 09:30:15,679 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-23 09:30:15,679 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id abc and esbURL is /api/v2/getsocialbenefitdata
+2024-09-23 09:30:15,680 INFO [http-nio-9999-exec-9] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-09-23 09:30:15,749 DEBUG [http-nio-9999-exec-9] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-23 09:30:15,750 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-23 09:30:15,751 INFO [http-nio-9999-exec-9] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-23 09:30:15,815 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-23 09:30:15,816 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-09-23 09:30:15,816 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-09-23 09:30:15,816 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode AMR with auth key 7b138069c3f14c96a8944c819354d76b
+2024-09-23 09:30:15,816 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-23 09:30:15,874 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code AMR is  7b138069c3f14c96a8944c819354d76b
+2024-09-23 09:30:15,875 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-23 09:30:15,949 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelist Process Starts here....
+2024-09-23 09:30:15,949 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-09-23 09:30:16,019 ERROR [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:192] 
+Access Denied.
+2024-09-23 09:30:16,020 INFO [http-nio-9999-exec-9] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-09-23 09:30:16,285 INFO [pool-5-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-09-23 09:30:16,286 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK
+2024-09-23 09:33:29,228 DEBUG [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+POST "/api/v2/getmeterreading", parameters={}
+2024-09-23 09:33:29,229 DEBUG [http-nio-9999-exec-2] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getMeterReading(HttpServletRequest, HttpServletResponse, MeterReading, Map)
+2024-09-23 09:33:29,229 INFO [http-nio-9999-exec-2] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-23 09:33:29,230 INFO [http-nio-9999-exec-2] c.d.a.i.BaseInterceptor [BaseInterceptor.java:233] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getmeterreading
+2024-09-23 09:33:29,230 INFO [http-nio-9999-exec-2] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getmeterreading
+2024-09-23 09:33:29,296 DEBUG [http-nio-9999-exec-2] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-23 09:33:29,298 INFO [http-nio-9999-exec-2] c.d.a.i.BaseInterceptor [BaseInterceptor.java:270] 
+Inside DDOS filtering
+2024-09-23 09:33:29,298 INFO [http-nio-9999-exec-2] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-23 09:33:29,368 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-23 09:33:29,368 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-09-23 09:33:29,368 INFO [http-nio-9999-exec-2] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-09-23 09:33:29,369 ERROR [http-nio-9999-exec-2] c.d.a.i.BaseInterceptor [BaseInterceptor.java:334] 
+Invalid timestamp
+2024-09-23 09:33:29,369 INFO [http-nio-9999-exec-2] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-09-23 09:33:29,438 INFO [pool-6-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-09-23 09:33:29,440 DEBUG [http-nio-9999-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK
+2024-09-23 09:33:38,391 DEBUG [http-nio-9999-exec-3] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+POST "/api/v2/getmeterreading", parameters={}
+2024-09-23 09:33:38,392 DEBUG [http-nio-9999-exec-3] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getMeterReading(HttpServletRequest, HttpServletResponse, MeterReading, Map)
+2024-09-23 09:33:38,392 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-23 09:33:38,392 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:233] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getmeterreading
+2024-09-23 09:33:38,393 INFO [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getmeterreading
+2024-09-23 09:33:38,464 DEBUG [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-23 09:33:38,466 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:270] 
+Inside DDOS filtering
+2024-09-23 09:33:38,466 INFO [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-23 09:33:38,571 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-23 09:33:38,571 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-09-23 09:33:38,572 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-09-23 09:33:38,572 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-09-23 09:33:38,572 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-23 09:33:38,732 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-09-23 09:33:38,732 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-23 09:33:38,814 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelist Process Starts here....
+2024-09-23 09:33:38,815 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-09-23 09:33:38,882 DEBUG [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for getmeterreading
+2024-09-23 09:33:39,015 DEBUG [http-nio-9999-exec-3] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor [LogFormatUtils.java:119] 
+Read "application/json;charset=UTF-8" to [MeterReading [LEGACY_ID=D33539, DATE_FROM=2023-01-01 00:00:00, DATE_TO=2023-12-02 00:00:00, FREQUENC (truncated)...]
+2024-09-23 09:33:39,025 INFO [http-nio-9999-exec-3] c.d.a.c.DiamControllerVer2 [DiamControllerVer2.java:551] 
+Entered::AbstractEmailDelivery::getRestTemplate()
+2024-09-23 09:33:39,084 DEBUG [http-nio-9999-exec-3] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP POST http://applications2.nec-oman.com:55102/api/GetMeterReading
+2024-09-23 09:33:39,088 DEBUG [http-nio-9999-exec-3] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-09-23 09:33:39,109 DEBUG [http-nio-9999-exec-3] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Writing [MeterReading [LEGACY_ID=D33539, DATE_FROM=2023-01-01 00:00:00, DATE_TO=2023-12-02 00:00:00, FREQUENCY=Monthly]] as "application/json"
+2024-09-23 09:33:39,985 DEBUG [http-nio-9999-exec-3] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Response 200 OK
+2024-09-23 09:33:39,987 DEBUG [http-nio-9999-exec-3] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Reading to [java.lang.String] as "application/json;charset=utf-8"
+2024-09-23 09:33:39,993 DEBUG [http-nio-9999-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:268] 
+Using 'application/json', given [*/*] and supported [application/json]
+2024-09-23 09:33:39,993 DEBUG [http-nio-9999-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:119] 
+Writing ["{"responseHeader":{"esbStatus":"SUCCESS", "targetStatus":" SUCCESS","esbResponseCode":"200" },"respo (truncated)..."]
+2024-09-23 09:33:40,000 INFO [http-nio-9999-exec-3] c.d.a.p.AuditLogProcessor [AuditLogProcessor.java:31] 
+Auditing records in AuditData Processor.
+2024-09-23 09:33:40,097 INFO [pool-7-thread-1] c.d.a.p.AuditLogProcessor [AuditLogProcessor.java:83] 
+Auditing in database.
+2024-09-23 09:33:40,108 DEBUG [http-nio-9999-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK

@@ -1,0 +1,204 @@
+2024-09-11 13:27:09,872 DEBUG [http-nio-9999-exec-8] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v2/getplotdetailsbycrooki", parameters={}
+2024-09-11 13:27:09,876 DEBUG [http-nio-9999-exec-8] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-11 13:27:09,876 INFO [http-nio-9999-exec-8] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-11 13:27:09,876 INFO [http-nio-9999-exec-8] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getplotdetailsbycrooki
+2024-09-11 13:27:09,879 INFO [http-nio-9999-exec-8] c.d.a.i.BaseInterceptor [BaseInterceptor.java:574] 
+Invalid URL sent by requestId ab
+2024-09-11 13:27:09,880 DEBUG [http-nio-9999-exec-8] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 404 NOT_FOUND
+2024-09-11 13:27:09,880 DEBUG [http-nio-9999-exec-8] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+"ERROR" dispatch for POST "/error", parameters={}
+2024-09-11 13:27:09,881 DEBUG [http-nio-9999-exec-8] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-09-11 13:27:09,881 INFO [http-nio-9999-exec-8] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-11 13:27:09,881 INFO [http-nio-9999-exec-8] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id ab and esbURL is /error
+2024-09-11 13:27:09,881 INFO [http-nio-9999-exec-8] c.d.a.i.BaseInterceptor [BaseInterceptor.java:574] 
+Invalid URL sent by requestId ab
+2024-09-11 13:27:09,882 DEBUG [http-nio-9999-exec-8] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1135] 
+Exiting from "ERROR" dispatch, status 404
+2024-09-11 13:27:15,301 DEBUG [http-nio-9999-exec-7] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v2/getplotdetailsbycrookie", parameters={}
+2024-09-11 13:27:15,302 DEBUG [http-nio-9999-exec-7] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getPlotDetailsByCrookie(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-11 13:27:15,302 INFO [http-nio-9999-exec-7] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-11 13:27:15,302 INFO [http-nio-9999-exec-7] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getplotdetailsbycrookie
+2024-09-11 13:27:15,302 INFO [http-nio-9999-exec-7] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getplotdetailsbycrookie
+2024-09-11 13:27:15,377 DEBUG [http-nio-9999-exec-7] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-11 13:27:15,378 INFO [http-nio-9999-exec-7] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-11 13:27:15,379 INFO [http-nio-9999-exec-7] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-11 13:27:15,450 INFO [http-nio-9999-exec-7] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-11 13:27:15,450 INFO [http-nio-9999-exec-7] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-09-11 13:27:15,451 INFO [http-nio-9999-exec-7] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-09-11 13:27:15,451 ERROR [http-nio-9999-exec-7] c.d.a.i.BaseInterceptor [BaseInterceptor.java:662] 
+Invalid timestamp
+2024-09-11 13:27:15,451 INFO [http-nio-9999-exec-7] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-09-11 13:27:15,536 INFO [pool-57-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-09-11 13:27:15,540 DEBUG [http-nio-9999-exec-7] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-09-11 13:27:31,545 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v2/getplotdetailsbycrookie", parameters={}
+2024-09-11 13:27:31,546 DEBUG [http-nio-9999-exec-9] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getPlotDetailsByCrookie(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-11 13:27:31,547 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-11 13:27:31,547 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getplotdetailsbycrookie
+2024-09-11 13:27:31,547 INFO [http-nio-9999-exec-9] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getplotdetailsbycrookie
+2024-09-11 13:27:31,654 DEBUG [http-nio-9999-exec-9] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-11 13:27:31,657 INFO [http-nio-9999-exec-9] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-11 13:27:31,657 INFO [http-nio-9999-exec-9] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-11 13:27:31,764 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-11 13:27:31,764 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-09-11 13:27:31,765 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-09-11 13:27:31,765 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-09-11 13:27:31,765 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-11 13:27:31,855 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-09-11 13:27:31,855 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-11 13:27:31,918 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelisted
+2024-09-11 13:27:31,919 INFO [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-09-11 13:27:31,992 DEBUG [http-nio-9999-exec-9] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for getplotdetailsbycrookie
+2024-09-11 13:27:32,634 INFO [http-nio-9999-exec-9] c.d.a.c.DiamControllerVer2 [DiamControllerVer2.java:551] 
+Entered::AbstractEmailDelivery::getRestTemplate()
+2024-09-11 13:27:32,877 DEBUG [http-nio-9999-exec-9] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP POST https://proxy-tst.mtcit.gov.om/ws/HOUSING/ExtServices/HousingService.svc
+2024-09-11 13:27:32,878 DEBUG [http-nio-9999-exec-9] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-09-11 13:27:32,879 DEBUG [http-nio-9999-exec-9] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Writing [<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:LandRegistry_GetPlotDetailsByCrookie>
+         <!--Optional:-->
+         <!--type: string-->
+         <tem:UserType>6</tem:UserType>
+         <!--Optional:-->
+         <!--type: string-->
+         <tem:UserName>DMTestUser</tem:UserName>
+         <!--Optional:-->
+         <!--type: string-->
+         <tem:Password>DMTest@MOH</tem:Password>
+         <!--Optional:-->
+         <!--type: string-->
+         <tem:Crookie>01-03-001-03-1863</tem:Crookie>
+      </tem:LandRegistry_GetPlotDetailsByCrookie>
+   </soapenv:Body>
+</soapenv:Envelope>] as "text/xml;charset=UTF-8"
+2024-09-11 13:27:33,627 DEBUG [http-nio-9999-exec-9] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Response 200 OK
+2024-09-11 13:27:33,635 DEBUG [http-nio-9999-exec-9] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Reading to [java.lang.String] as "text/xml;charset=UTF-8"
+2024-09-11 13:27:33,638 DEBUG [http-nio-9999-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:275] 
+Using 'application/xml', given [*/*] and supported [application/xml]
+2024-09-11 13:27:33,638 DEBUG [http-nio-9999-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] 
+Writing ["<response><responseHeader><esbStatus> SUCCESS</esbStatus><targetStatus> SUCCESS </targetStatus><esbR (truncated)..."]
+2024-09-11 13:27:33,642 INFO [http-nio-9999-exec-9] c.d.a.p.AuditLogProcessor [AuditLogProcessor.java:31] 
+Auditing records in AuditData Processor.
+2024-09-11 13:27:33,733 INFO [pool-58-thread-1] c.d.a.p.AuditLogProcessor [AuditLogProcessor.java:83] 
+Auditing in database.
+2024-09-11 13:27:33,755 DEBUG [http-nio-9999-exec-9] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-09-11 13:27:47,198 DEBUG [http-nio-9999-exec-6] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v2/getplotdetailsbycrookie", parameters={}
+2024-09-11 13:27:47,199 DEBUG [http-nio-9999-exec-6] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer2#getPlotDetailsByCrookie(Envelope, HttpServletRequest, HttpServletResponse)
+2024-09-11 13:27:47,199 INFO [http-nio-9999-exec-6] c.d.a.i.BaseInterceptor [BaseInterceptor.java:53] 
+Inside prehandle
+2024-09-11 13:27:47,199 INFO [http-nio-9999-exec-6] c.d.a.i.BaseInterceptor [BaseInterceptor.java:558] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getplotdetailsbycrookie
+2024-09-11 13:27:47,199 INFO [http-nio-9999-exec-6] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getplotdetailsbycrookie
+2024-09-11 13:27:47,309 DEBUG [http-nio-9999-exec-6] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-09-11 13:27:47,310 INFO [http-nio-9999-exec-6] c.d.a.i.BaseInterceptor [BaseInterceptor.java:595] 
+Inside DDOS filtering
+2024-09-11 13:27:47,310 INFO [http-nio-9999-exec-6] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-09-11 13:27:47,385 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-09-11 13:27:47,386 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-09-11 13:27:47,386 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-09-11 13:27:47,386 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-09-11 13:27:47,386 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-11 13:27:47,482 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-09-11 13:27:47,482 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-09-11 13:27:47,550 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelisted
+2024-09-11 13:27:47,554 INFO [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-09-11 13:27:47,631 DEBUG [http-nio-9999-exec-6] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for getplotdetailsbycrookie
+2024-09-11 13:27:47,641 INFO [http-nio-9999-exec-6] c.d.a.c.DiamControllerVer2 [DiamControllerVer2.java:551] 
+Entered::AbstractEmailDelivery::getRestTemplate()
+2024-09-11 13:27:47,645 DEBUG [http-nio-9999-exec-6] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP POST https://proxy-tst.mtcit.gov.om/ws/HOUSING/ExtServices/HousingService.svc
+2024-09-11 13:27:47,645 DEBUG [http-nio-9999-exec-6] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-09-11 13:27:47,646 DEBUG [http-nio-9999-exec-6] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Writing [<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:LandRegistry_GetPlotDetailsByCrookie>
+         <!--Optional:-->
+         <!--type: string-->
+         <tem:UserTyp>6</tem:UserType>
+         <!--Optional:-->
+         <!--type: string-->
+         <tem:UserName>DMTestUser</tem:UserName>
+         <!--Optional:-->
+         <!--type: string-->
+         <tem:Password>DMTest@MOH</tem:Password>
+         <!--Optional:-->
+         <!--type: string-->
+         <tem:Crookie>01-03-001-03-1863</tem:Crookie>
+      </tem:LandRegistry_GetPlotDetailsByCrookie>
+   </soapenv:Body>
+</soapenv:Envelope>] as "text/xml;charset=UTF-8"
+2024-09-11 13:27:47,754 DEBUG [http-nio-9999-exec-6] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Response 500 INTERNAL_SERVER_ERROR
+2024-09-11 13:27:48,152 DEBUG [http-nio-9999-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:275] 
+Using 'application/xml', given [*/*] and supported [application/xml]
+2024-09-11 13:27:48,152 DEBUG [http-nio-9999-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] 
+Writing ["<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><s:Fault><faultcode xmlns:a= (truncated)..."]
+2024-09-11 13:27:48,224 INFO [http-nio-9999-exec-6] c.d.a.p.AuditLogProcessor [AuditLogProcessor.java:31] 
+Auditing records in AuditData Processor.
+2024-09-11 13:27:48,387 INFO [pool-59-thread-1] c.d.a.p.AuditLogProcessor [AuditLogProcessor.java:83] 
+Auditing in database.
+2024-09-11 13:27:48,392 DEBUG [http-nio-9999-exec-6] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK

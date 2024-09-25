@@ -1,0 +1,282 @@
+2024-08-06 11:27:38,925 INFO [http-nio-9999-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] 
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 11:27:38,931 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:532] 
+Initializing Servlet 'dispatcherServlet'
+2024-08-06 11:27:38,931 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:533] 
+Detected StandardServletMultipartResolver
+2024-08-06 11:27:38,932 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:557] 
+Detected AcceptHeaderLocaleResolver
+2024-08-06 11:27:38,933 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:583] 
+Detected FixedThemeResolver
+2024-08-06 11:27:38,935 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:733] 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@26b2b0cd
+2024-08-06 11:27:38,936 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:797] 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@11acf9d2
+2024-08-06 11:27:38,936 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:549] 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-08-06 11:27:38,936 INFO [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:554] 
+Completed initialization in 5 ms
+2024-08-06 11:27:38,950 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v1/getsocialbenefitdata", parameters={}
+2024-08-06 11:27:38,972 DEBUG [http-nio-9999-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer1#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-08-06 11:27:38,976 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:51] 
+Inside prehandle
+2024-08-06 11:27:38,981 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:238] 
+############Request Processing started for request-id ab and esbURL is /api/v1/getsocialbenefitdata
+2024-08-06 11:27:38,984 INFO [http-nio-9999-exec-1] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-08-06 11:27:39,504 DEBUG [http-nio-9999-exec-1] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-08-06 11:27:39,506 INFO [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:272] 
+Inside DDOS filtering
+2024-08-06 11:27:39,506 INFO [http-nio-9999-exec-1] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-08-06 11:27:39,572 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-08-06 11:27:39,572 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-08-06 11:27:39,573 INFO [http-nio-9999-exec-1] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-08-06 11:27:39,574 ERROR [http-nio-9999-exec-1] c.d.a.i.BaseInterceptor [BaseInterceptor.java:345] 
+Invalid timestamp
+2024-08-06 11:27:39,575 INFO [http-nio-9999-exec-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-08-06 11:27:39,649 INFO [pool-2-thread-1] c.d.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-08-06 11:27:39,654 DEBUG [http-nio-9999-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-08-06 11:27:45,721 DEBUG [http-nio-9999-exec-3] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v1/getsocialbenefitdata", parameters={}
+2024-08-06 11:27:45,722 DEBUG [http-nio-9999-exec-3] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer1#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-08-06 11:27:45,722 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:51] 
+Inside prehandle
+2024-08-06 11:27:45,723 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:238] 
+############Request Processing started for request-id ab and esbURL is /api/v1/getsocialbenefitdata
+2024-08-06 11:27:45,723 INFO [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-08-06 11:27:45,794 DEBUG [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-08-06 11:27:45,795 INFO [http-nio-9999-exec-3] c.d.a.i.BaseInterceptor [BaseInterceptor.java:272] 
+Inside DDOS filtering
+2024-08-06 11:27:45,796 INFO [http-nio-9999-exec-3] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-08-06 11:27:45,865 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-08-06 11:27:45,865 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-08-06 11:27:45,866 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-08-06 11:27:45,866 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-08-06 11:27:45,866 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 11:27:45,930 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-08-06 11:27:45,930 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 11:27:45,989 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelisted
+2024-08-06 11:27:45,990 INFO [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-08-06 11:27:46,053 DEBUG [http-nio-9999-exec-3] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for getsocialbenefitdata
+2024-08-06 11:27:46,270 INFO [http-nio-9999-exec-3] c.d.a.c.DiamControllerVer1 [DiamControllerVer1.java:396] 
+Entered::DiamControllerVer1::getRestTemplate()
+2024-08-06 11:27:46,308 DEBUG [http-nio-9999-exec-3] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP POST https://proxy-tst.mtcit.gov.om/ws/MOSD/MOSD_WS/services/CallWS
+2024-08-06 11:27:46,319 DEBUG [http-nio-9999-exec-3] i.m.c.u.i.l.InternalLoggerFactory [InternalLoggerFactory.java:59] 
+Using SLF4J as the default logging framework
+2024-08-06 11:27:46,324 DEBUG [http-nio-9999-exec-3] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-08-06 11:27:46,325 DEBUG [http-nio-9999-exec-3] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Writing [<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.mosd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getSocialBenefitData>
+         <!--Optional:-->
+         <ws:username>DIAM</ws:username>
+         <!--Optional:-->
+         <ws:password>DIAM82019</ws:password>
+         <!--Optional:-->
+         <ws:civilid>9460828</ws:civilid>
+      </ws:getSocialBenefitData>
+   </soapenv:Body>
+</soapenv:Envelope>] as "text/xml;charset=UTF-8"
+2024-08-06 11:27:46,328 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:30] 
+===========================request begin================================================
+2024-08-06 11:27:46,329 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:31] 
+URI         : https://proxy-tst.mtcit.gov.om/ws/MOSD/MOSD_WS/services/CallWS
+2024-08-06 11:27:46,329 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:32] 
+Method      : POST
+2024-08-06 11:27:46,329 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:33] 
+Headers     : [Accept:"text/plain, application/json, application/*+json, */*", SOAPAction:"urn:getSocialBenefitData", Content-Type:"text/xml;charset=UTF-8", Authorization:"Basic RElBTSA6RElBTTgyMDE5", Content-Length:"464"]
+2024-08-06 11:27:46,333 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:34] 
+Request body: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.mosd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getSocialBenefitData>
+         <!--Optional:-->
+         <ws:username>DIAM</ws:username>
+         <!--Optional:-->
+         <ws:password>DIAM82019</ws:password>
+         <!--Optional:-->
+         <ws:civilid>9460828</ws:civilid>
+      </ws:getSocialBenefitData>
+   </soapenv:Body>
+</soapenv:Envelope>
+2024-08-06 11:27:46,334 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:35] 
+==========================request end================================================
+2024-08-06 11:27:51,186 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:48] 
+============================response begin==========================================
+2024-08-06 11:27:51,186 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:49] 
+Status code  : 200 OK
+2024-08-06 11:27:51,186 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:50] 
+Status text  : OK
+2024-08-06 11:27:51,187 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:51] 
+Headers      : [Date:"Tue, 06 Aug 2024 07:27:45 GMT", Server:"Jetty(9.2.19.v20160908)", Content-Type:"text/xml;charset=UTF-8", Accept:"text/plain, application/json, application/*+json, */*", Authorization:"Basic RElBTSA6RElBTTgyMDE5", operationName:"Test", SOAPAction:"urn:getSocialBenefitData", SSL_CLIENT_I_DN:"(null)", SSL_CLIENT_S_DN:"(null)", SSL_CLIENT_S_DN_CN:"(null)", SSL_CLIENT_VERIFY:"NONE", SSL_SERVER_S_DN_OU:"Central RA - MTCIT", Connection:"close", Transfer-Encoding:"chunked"]
+2024-08-06 11:27:51,187 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:52] 
+Response body: <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns:getSocialBenefitDataResponse xmlns:ns="http://ws.mosd"><ns:return>&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?>&lt;MY_RESPONSE>&lt;Social_Benefit_Data>&lt;CIVIL_ID>-&lt;/CIVIL_ID>&lt;FILE_RECID>-&lt;/FILE_RECID>&lt;DEPT_NAME>-&lt;/DEPT_NAME>&lt;SOCIAL_GROUP_NAME>-&lt;/SOCIAL_GROUP_NAME>&lt;FIRST_NAME>-&lt;/FIRST_NAME>&lt;SECOND_NAME>-&lt;/SECOND_NAME>&lt;THIRD_NAME>-&lt;/THIRD_NAME>&lt;FOURTH_NAME>-&lt;/FOURTH_NAME>&lt;BIRTH_DATE>-&lt;/BIRTH_DATE>&lt;PAYMENT_START_DATE>-&lt;/PAYMENT_START_DATE>&lt;GENDER>-&lt;/GENDER>&lt;FAMILY_COUNT>-&lt;/FAMILY_COUNT>&lt;NET_AMT>-&lt;/NET_AMT>&lt;STATUS>-&lt;/STATUS>&lt;EDUCATION_STATUS>-&lt;/EDUCATION_STATUS>&lt;MARRIAGE_STATUS>-&lt;/MARRIAGE_STATUS>&lt;DISEASE_NY>-&lt;/DISEASE_NY>&lt;DISEASE_TYPE>-&lt;/DISEASE_TYPE>&lt;HANDICAPPED_NY>-&lt;/HANDICAPPED_NY>&lt;HANDICAPE_TYPE>-&lt;/HANDICAPE_TYPE>&lt;HANDICAPE_DESC>-&lt;/HANDICAPE_DESC>&lt;/Social_Benefit_Data>&lt;/MY_RESPONSE></ns:return></ns:getSocialBenefitDataResponse></soapenv:Body></soapenv:Envelope>
+2024-08-06 11:27:51,187 INFO [http-nio-9999-exec-3] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:53] 
+=======================response end=================================================
+2024-08-06 11:27:51,187 DEBUG [http-nio-9999-exec-3] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Response 200 OK
+2024-08-06 11:27:51,189 DEBUG [http-nio-9999-exec-3] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Reading to [java.lang.String] as "text/xml;charset=UTF-8"
+2024-08-06 11:27:51,197 DEBUG [http-nio-9999-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:275] 
+Using 'application/xml', given [*/*] and supported [application/xml]
+2024-08-06 11:27:51,198 DEBUG [http-nio-9999-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] 
+Writing ["<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/so (truncated)..."]
+2024-08-06 11:27:51,202 DEBUG [http-nio-9999-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-08-06 11:27:58,759 DEBUG [http-nio-9999-exec-4] o.s.w.s.DispatcherServlet [LogFormatUtils.java:120] 
+POST "/api/v1/getsocialbenefitdata", parameters={}
+2024-08-06 11:27:58,760 DEBUG [http-nio-9999-exec-4] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:531] 
+Mapped to com.diam.app.controller.DiamControllerVer1#getSocialBenefitData(Envelope, HttpServletRequest, HttpServletResponse)
+2024-08-06 11:27:58,760 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:51] 
+Inside prehandle
+2024-08-06 11:27:58,765 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:238] 
+############Request Processing started for request-id ab and esbURL is /api/v1/getsocialbenefitdata
+2024-08-06 11:27:58,766 INFO [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getsocialbenefitdata
+2024-08-06 11:27:58,836 DEBUG [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-08-06 11:27:58,841 INFO [http-nio-9999-exec-4] c.d.a.i.BaseInterceptor [BaseInterceptor.java:272] 
+Inside DDOS filtering
+2024-08-06 11:27:58,841 INFO [http-nio-9999-exec-4] c.d.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-08-06 11:27:58,918 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-08-06 11:27:58,919 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-08-06 11:27:58,919 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-08-06 11:27:58,919 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-08-06 11:27:58,919 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 11:27:58,983 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-08-06 11:27:58,984 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-08-06 11:27:59,064 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelisted
+2024-08-06 11:27:59,064 INFO [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-08-06 11:27:59,143 DEBUG [http-nio-9999-exec-4] c.d.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for getsocialbenefitdata
+2024-08-06 11:27:59,155 INFO [http-nio-9999-exec-4] c.d.a.c.DiamControllerVer1 [DiamControllerVer1.java:396] 
+Entered::DiamControllerVer1::getRestTemplate()
+2024-08-06 11:27:59,158 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP POST https://proxy-tst.mtcit.gov.om/ws/MOSD/MOSD_WS/services/CallWS
+2024-08-06 11:27:59,158 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-08-06 11:27:59,158 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Writing [<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.mosd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getSocialBenefitData>
+         <!--Optional:-->
+         <ws:username>DIAM</ws:username>
+         <!--Optional:-->
+         <ws:password>DIAM82019</ws:password>
+         <!--Optional:-->
+         <ws:civilid>9460828</ws:civilid>
+      </ws:getSocialBenefitData>
+   </soapenv:Body>
+</soapenv:Envelope>] as "text/xml;charset=UTF-8"
+2024-08-06 11:27:59,159 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:30] 
+===========================request begin================================================
+2024-08-06 11:27:59,159 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:31] 
+URI         : https://proxy-tst.mtcit.gov.om/ws/MOSD/MOSD_WS/services/CallWS
+2024-08-06 11:27:59,159 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:32] 
+Method      : POST
+2024-08-06 11:27:59,159 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:33] 
+Headers     : [Accept:"text/plain, application/json, application/*+json, */*", SOAPAction:"urn:getSocialBenefitData", Content-Type:"text/xml;charset=UTF-8", Authorization:"Basic RElBTSA6RElBTTgyMDE5", Content-Length:"464"]
+2024-08-06 11:27:59,159 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:34] 
+Request body: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.mosd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getSocialBenefitData>
+         <!--Optional:-->
+         <ws:username>DIAM</ws:username>
+         <!--Optional:-->
+         <ws:password>DIAM82019</ws:password>
+         <!--Optional:-->
+         <ws:civilid>9460828</ws:civilid>
+      </ws:getSocialBenefitData>
+   </soapenv:Body>
+</soapenv:Envelope>
+2024-08-06 11:27:59,159 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:35] 
+==========================request end================================================
+2024-08-06 11:27:59,299 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:48] 
+============================response begin==========================================
+2024-08-06 11:27:59,299 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:49] 
+Status code  : 200 OK
+2024-08-06 11:27:59,299 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:50] 
+Status text  : OK
+2024-08-06 11:27:59,300 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:51] 
+Headers      : [Date:"Tue, 06 Aug 2024 07:27:53 GMT", Server:"Jetty(9.2.19.v20160908)", Content-Type:"text/xml;charset=UTF-8", Accept:"text/plain, application/json, application/*+json, */*", Authorization:"Basic RElBTSA6RElBTTgyMDE5", operationName:"Test", SOAPAction:"urn:getSocialBenefitData", SSL_CLIENT_I_DN:"(null)", SSL_CLIENT_S_DN:"(null)", SSL_CLIENT_S_DN_CN:"(null)", SSL_CLIENT_VERIFY:"NONE", SSL_SERVER_S_DN_OU:"Central RA - MTCIT", Connection:"close", Transfer-Encoding:"chunked"]
+2024-08-06 11:27:59,300 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:52] 
+Response body: <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns:getSocialBenefitDataResponse xmlns:ns="http://ws.mosd"><ns:return>&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?>&lt;MY_RESPONSE>&lt;Social_Benefit_Data>&lt;CIVIL_ID>-&lt;/CIVIL_ID>&lt;FILE_RECID>-&lt;/FILE_RECID>&lt;DEPT_NAME>-&lt;/DEPT_NAME>&lt;SOCIAL_GROUP_NAME>-&lt;/SOCIAL_GROUP_NAME>&lt;FIRST_NAME>-&lt;/FIRST_NAME>&lt;SECOND_NAME>-&lt;/SECOND_NAME>&lt;THIRD_NAME>-&lt;/THIRD_NAME>&lt;FOURTH_NAME>-&lt;/FOURTH_NAME>&lt;BIRTH_DATE>-&lt;/BIRTH_DATE>&lt;PAYMENT_START_DATE>-&lt;/PAYMENT_START_DATE>&lt;GENDER>-&lt;/GENDER>&lt;FAMILY_COUNT>-&lt;/FAMILY_COUNT>&lt;NET_AMT>-&lt;/NET_AMT>&lt;STATUS>-&lt;/STATUS>&lt;EDUCATION_STATUS>-&lt;/EDUCATION_STATUS>&lt;MARRIAGE_STATUS>-&lt;/MARRIAGE_STATUS>&lt;DISEASE_NY>-&lt;/DISEASE_NY>&lt;DISEASE_TYPE>-&lt;/DISEASE_TYPE>&lt;HANDICAPPED_NY>-&lt;/HANDICAPPED_NY>&lt;HANDICAPE_TYPE>-&lt;/HANDICAPE_TYPE>&lt;HANDICAPE_DESC>-&lt;/HANDICAPE_DESC>&lt;/Social_Benefit_Data>&lt;/MY_RESPONSE></ns:return></ns:getSocialBenefitDataResponse></soapenv:Body></soapenv:Envelope>
+2024-08-06 11:27:59,300 INFO [http-nio-9999-exec-4] c.d.a.c.LoggingRequestInterceptor [LoggingRequestInterceptor.java:53] 
+=======================response end=================================================
+2024-08-06 11:27:59,300 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Response 200 OK
+2024-08-06 11:27:59,301 DEBUG [http-nio-9999-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Reading to [java.lang.String] as "text/xml;charset=UTF-8"
+2024-08-06 11:27:59,303 DEBUG [http-nio-9999-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:275] 
+Using 'application/xml', given [*/*] and supported [application/xml]
+2024-08-06 11:27:59,303 DEBUG [http-nio-9999-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] 
+Writing ["<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/so (truncated)..."]
+2024-08-06 11:27:59,304 DEBUG [http-nio-9999-exec-4] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1138] 
+Completed 200 OK
+2024-08-06 11:28:23,992 INFO [RMI TCP Connection(8)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] 
+Application shutdown requested.
+2024-08-06 11:28:23,992 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:77] 
+Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-08-06 11:28:23,993 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:1134] 
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55e7a35c, started on Tue Aug 06 11:26:12 GST 2024
+2024-08-06 11:28:23,994 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase 2147483647
+2024-08-06 11:28:23,995 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'applicationTaskExecutor' completed its stop procedure
+2024-08-06 11:28:23,995 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase 2147482623
+2024-08-06 11:28:23,997 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-08-06 11:28:23,997 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase 2147481599
+2024-08-06 11:28:23,997 INFO [RMI TCP Connection(8)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] 
+Stopping ProtocolHandler ["http-nio-9999"]
+2024-08-06 11:28:24,081 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'webServerStartStop' completed its stop procedure
+2024-08-06 11:28:24,082 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:478] 
+Stopping beans in phase -2147483647
+2024-08-06 11:28:24,082 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:350] 
+Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-08-06 11:28:24,084 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:468] 
+Unregistering JMX-exposed beans on shutdown
+2024-08-06 11:28:24,085 DEBUG [RMI TCP Connection(8)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:328] 
+Shutting down ExecutorService 'applicationTaskExecutor'
